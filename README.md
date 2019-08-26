@@ -2,37 +2,32 @@
 
 ## Installation
 
-### With Package Control
-
-[Package Control: Install Package](https://packagecontrol.io/docs/usage) and look for `Hugo Snippets`
-
-### With Git
-
-#### OSX
+### OSX
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
-    $ git clone git@github.com:regisphilibert/Sublime-Hugo-Snippets.git
+    $ git clone git@github.com:salmanulfarzy/Sublime-Hugo-Snippets.git
 
-#### Linux (Ubuntu like distros)
+### Linux (Ubuntu like distros)
 
     $ cd ~/.config/sublime-text-3/Packages/User
-    $ git clone git@github.com:regisphilibert/Sublime-Hugo-Snippets.git
-    
+    $ git clone git@github.com:salmanulfarzy/Sublime-Hugo-Snippets.git
+
 ## Available Snippets
 
-Snippet | Tab Trigger | Output
---- | --- | ---
-Curlies | __x__ | `{{ }}`
-Dot | __dot__ | `{{ . }}`
-If | __if__ | `{{ if }} {{ end }}`
-If/Else | __ife__ | `{{ if }} {{ else }} {{ end }}`
-If/Else if | __ifei__ | `{{ if }} {{ else if }} {{ end }}`
-With | __with__ | `{{ with }} {{ end }}`
-With/Else | __withe__ | `{{ with }} {{ else }} {{ end }}`
-Range | __range__ | `{{ range  }} {{ end }}`
-Partial | __partial__ | `{{ partial "" . }}`
-Block | __block__ | `{{ block "main" . }} {{ end }}`
-Block define | __define__ | `{{ define "block" }} {{ end }}`
-Variable | __vars__ | `{{ $var := what }}`
-Debug | __debug__ | `{{ printf "%#v"  }}`
-Comment | __comm__ | `{{/* */}}`
+| Snippet      | Tab Trigger | Output                             |
+| ------------ | ----------- | ---------------------------------- |
+| Curlies      | **x**       | `{{ }}`                            |
+| Dot          | **dot**     | `{{ . }}`                          |
+| If           | **if**      | `{{ if }} {{ end }}`               |
+| If/Else      | **ife**     | `{{ if }} {{ else }} {{ end }}`    |
+| If/Else if   | **ifei**    | `{{ if }} {{ else if }} {{ end }}` |
+| With         | **with**    | `{{ with }} {{ end }}`             |
+| With/Else    | **withe**   | `{{ with }} {{ else }} {{ end }}`  |
+| Range        | **range**   | `{{ range }} {{ end }}`            |
+| Partial      | **partial** | `{{ partial "" . }}`               |
+| Shortcode    | **partial** | `{{< >}}`                          |
+| Block        | **block**   | `{{ block "main" . }} {{ end }}`   |
+| Block define | **define**  | `{{ define "block" }} {{ end }}`   |
+| Variable     |  **vars**   | `{{ $var := what }}`               |
+| Debug        |  **debug**  | `{{ printf "%#v" }}`               |
+| Comment      |  **comm**   | `{{/* */}}`                        |
